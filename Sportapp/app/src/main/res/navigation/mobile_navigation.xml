@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.sportapp.ui.Sport.SportFragment"
+        android:label="运动打卡"
+        tools:layout="@layout/fragment_sport" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.sportapp.ui.Health.HealthFragment"
+        android:label="健康打卡"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.sportapp.ui.ShowRecord.ShowRecordFragment"
+        android:label="记录"
+        tools:layout="@layout/fragment_showrecord" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.example.sportapp.ui.FourFragment.MyFragment"
+        android:label="我的"
+        tools:layout="@layout/my_fragment" />
+</navigation>

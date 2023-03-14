@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Health.HealthFragment">
+
+    <Spinner
+        android:id="@+id/xian"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="194dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="124dp"
+        android:autoSizeTextType="uniform"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/shi"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time" />
+
+    <TextView
+        android:id="@+id/textView_time"
+        android:layout_width="244dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="40dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/underline_text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="76dp"
+        android:text="手动上传"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_da" />
+
+    <Spinner
+        android:id="@+id/spinner_state"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/Array_state"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_gender" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否身体不适"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_state"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner_state" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="52dp"
+        android:text="时间"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView_time" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="地点"
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体温"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_gender"
+        app:layout_constraintEnd_toStartOf="@+id/spinner_gender"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner_gender" />
+
+    <Spinner
+        android:id="@+id/spinner_gender"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="20dp"
+        android:entries="@array/Array_tem"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time" />
+
+    <Spinner
+        android:id="@+id/sheng"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="195dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time" />
+
+    <Spinner
+        android:id="@+id/shi"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="195dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="76dp"
+        android:autoSizeTextType="uniform"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/sheng"
+        app:layout_constraintTop_toBottomOf="@+id/textView_time" />
+
+    <TextView
+        android:id="@+id/t_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="388dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_state" />
+
+    <Button
+        android:id="@+id/btn_da"
+        android:layout_width="112dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        android:text="健康打卡"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_state" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

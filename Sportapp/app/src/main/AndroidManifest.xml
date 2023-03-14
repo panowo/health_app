@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sportapp">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 粗略的位置权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 精确的位置权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="运动健康小助手"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sportapp">
+        <activity
+            android:name=".pages.EditActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".service.RemindActionService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".pages.ShowHealthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.ShowSportActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".service.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".service.UpdateService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".TestLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.UserAcitivity"
+            android:exported="false"
+            android:label="@string/title_activity_user_acitivity" />
+        <activity
+            android:name=".pages.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.SportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pages.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
