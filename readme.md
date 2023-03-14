@@ -14,7 +14,7 @@
 
 **通信过程分析：**
 
-​                               ![image-20230314222720817](C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314222720817.png)
+​                               <img src="picture\image-20230314222720817.png" alt="image-20230314222720817" style="zoom:67%;" />
 
 图2-1 APP通信
 
@@ -42,22 +42,21 @@
 
 
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314222940230.png" alt="image-20230314222940230" style="zoom: 67%;" /><img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314222950561.png" alt="image-20230314222950561" style="zoom:67%;" />
+<img src="picture\image-20230314222940230.png" alt="image-20230314222940230" style="zoom:67%;" />
 
-图4-1 用户登录界面和登录成功
+<img src="picture\image-20230314222950561.png" alt="image-20230314222950561" style="zoom:67%;" />
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314223008986.png" alt="image-20230314223008986" style="zoom: 67%;" />
+<img src="picture\image-20230314223008986.png" alt="image-20230314223008986" style="zoom:67%;" />
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314223017491.png" alt="image-20230314223017491" style="zoom:67%;" />
+<img src="picture\image-20230314223017491.png" alt="image-20230314223017491" style="zoom:67%;" />
 
+<img src="picture\image-20230314223041258.png" alt="image-20230314223041258" style="zoom:67%;" />
 
+<img src="picture\image-20230314223052308.png" alt="image-20230314223052308" style="zoom:67%;" />
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314223041258.png" alt="image-20230314223041258" style="zoom:67%;" />
+<img src="picture\image-20230314223058312.png" alt="image-20230314223058312" style="zoom:67%;" />
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314223052308.png" alt="image-20230314223052308" style="zoom:67%;" />
+<img src="picture\image-20230314223107886.png" alt="image-20230314223107886" style="zoom:67%;" />
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314223058312.png" alt="image-20230314223058312" style="zoom:67%;" />
+<img src="picture\image-20230314223112885.png" alt="image-20230314223112885" style="zoom:67%;" />
 
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314223107886.png" alt="image-20230314223107886" style="zoom:67%;" />
-
-<img src="C:\Users\Alice\AppData\Roaming\Typora\typora-user-images\image-20230314223112885.png" alt="image-20230314223112885" style="zoom:67%;" />
